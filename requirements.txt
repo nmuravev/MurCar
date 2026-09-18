@@ -1,0 +1,40 @@
+# Requirements для Drone Detection System
+
+# Основные зависимости
+numpy>=1.24.0
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+
+# GStreamer (устанавливается через apt)
+# libgstreamer1.0-dev
+# libgstreamer-plugins-base1.0-dev
+# gstreamer1.0-tools
+# gstreamer1.0-plugins-good
+# gstreamer1.0-plugins-bad
+# gstreamer1.0-rtsp
+# python3-gi
+# gir1.2-gst-rtsp-server-1.0
+
+# RKNN для NPU Orange Pi 5
+# rknn-toolkit2 (требует ручной установки с Rockchip SDK)
+
+# Стриминг и сеть
+websockets>=12.0
+
+# TTS (Text-to-Speech)
+torch>=2.0.0
+scipy>=1.11.0
+# silero-models (загружается автоматически через torch.hub)
+
+# Аудио
+# portaudio19-dev (apt)
+# rhvoice (apt)
+# alsa-utils (apt)
+
+# Утилиты
+pyyaml>=6.0
+dataclasses-json>=0.5.0
+
+# Опционально: для тестирования
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
